@@ -25,3 +25,6 @@ prob = ODEProblem(odesys, [], tspan, [])
 sol = solve(prob, Tsit5())
 ```
 
+## Issues
+Please raise an issue in this repository if you encounter any problems using this model.
+
